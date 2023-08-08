@@ -77,3 +77,54 @@ body, html {
 .footer a:hover {
     text-decoration: underline;
 }
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    
+    .contentContainer {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .sailboatIcon {
+        font-size: 1.5em;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    
+    .contentContainer {
+        padding: 15px;
+        width: 80%;
+    }
+
+    .content h1 {
+        font-size: 2.5em;
+    }
+
+    .sailboatIcon {
+        font-size: 1.8em;
+    }
+}
+
+/* Large devices (computers) */
+@media only screen and (min-width: 993px) {
+    
+    .contentContainer {
+        padding: 20px;
+        width: 60%;
+    }
+
+    .content h1 {
+        font-size: 3em;
+    }
+
+    .sailboatIcon {
+        font-size: 2em;
+    }
+}
